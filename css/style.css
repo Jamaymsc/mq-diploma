@@ -1051,11 +1051,12 @@ width: 100%;
 }
 
 .tags-list-item {
-  margin-right: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .tags-list-link {
-  padding: 3px 9px;
+  padding: 3px 6px;
 }
 
 .products-wrap{
