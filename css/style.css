@@ -673,7 +673,7 @@ a {
     height: auto;
     padding: 50px 0 30px;
   }
-  .popup-x {
+  .popup-close {
     position: absolute;
     content: "";
     width: 20px;
@@ -727,11 +727,11 @@ a {
     flex-direction: column;
   }
   
-  .popup-radio-var {
+  .popup-radio-option {
     margin-right: 20px;
   }
   
-  .radio-var:before {
+  .radio-option:before {
     position: relative;
     content: "";
     display: inline-block;
@@ -910,13 +910,13 @@ width: 100%;
     padding-bottom: 20px;
 }
 
-.popup-x {
+.popup-close {
   width: 30px;
   height: 30px;
   top: -35px;
 }
 
-.radio-var:before {
+.radio-option:before {
   width: 30px;
   height: 30px;
   background-size: 30px;
@@ -924,7 +924,7 @@ width: 100%;
   margin-right: 7px;
 }
 
-.popup-radio-var {
+.popup-radio-option {
   margin-right: 30px;
 }
 }
@@ -1093,13 +1093,13 @@ width: 100%;
     margin-top: 25px;
   }
 
-.popup-x {
+.popup-close {
     width: 30px;
     height: 30px;
     top: -35px;
   }
 
-.radio-var:before {
+.radio-option:before {
     width: 30px;
     height: 30px;
     background-size: 30px;
@@ -1107,7 +1107,7 @@ width: 100%;
     margin-right: 7px;
   }
 
-.popup-radio-var {
+.popup-radio-option {
     margin-right: 30px;
   }
 
