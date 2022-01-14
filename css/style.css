@@ -838,7 +838,6 @@ font-size: 18px;
 
 .trends-content-wrap {
     flex-wrap: wrap;
-    flex-grow: 1;
   }
 
   .trends {
@@ -976,7 +975,6 @@ display: none;
 
   .trends-content-wrap {
     flex-wrap: wrap;
-    flex-grow: 1;
   }
 
   .trends {
