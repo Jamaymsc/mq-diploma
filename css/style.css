@@ -136,35 +136,17 @@ body {
     margin-right: auto;
     margin-top: 105px;
 }
+        
+  .trends-wrap {
+    max-width: 100%;
+  }
 
-.trends-title-container {
+  .title-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     height: 120px;
-  }
-  
-  .trends-title {
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 29px;
-    font-weight: bold;
-    padding-top: 40px;
-  }
-  
-  .trends-title:after {
-    content: "";
-    display: block;
-    position: relative;
-    margin: 13px auto 16px;
-    width: 67px;
-    height: 3px;
-    background: #e1d9bd;
-  }
-  
-  .trends-wrap {
-    max-width: 100%;
   }
   
   .trends-content-wrap {
@@ -502,13 +484,6 @@ a {
     font-weight: bold;
 }
 
-.shop-title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: 125px;
-}
 
 .products-wrap {
     display: flex;
@@ -516,6 +491,15 @@ a {
     max-width: 1200px;
     padding: 0 15px 64px;
     margin: 0 auto ;
+    flex-wrap: wrap;
+    }
+
+    .trends-title {
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 29px;
+      font-weight: bold;
+      padding-top: 40px;
     }
   
   .product {
@@ -523,10 +507,12 @@ a {
     flex-direction: column;
     width: calc(33.33% - 55px);
     padding: 0 22px;
+    align-items: center;
   }
   
   .product__imgbox {
-    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .product__body {
@@ -851,13 +837,18 @@ font-size: 18px;
     line-height: 22px;
   }
 
+ 
 .page-wrap {
     width: 100%;
     padding: 55px 35px 0;
 }
 
+.main {
+  width: calc(100% - 304px);
+}
+
 .news {
-    max-width: 394px;
+    width: 100%;
     flex-direction: column;
 }
 
@@ -876,7 +867,7 @@ font-size: 18px;
 }
 
 .news-img {
-    width: 394px;
+    width: 100%;
 }
 
 .news-link {
@@ -902,12 +893,6 @@ padding: 0 35px 50px;
     width: calc(50% - 20px);
     margin-bottom: 32px;
 }
-
-.product__imgbox {
-    width: 292px;
-    align-self: center;
-}
-
 
 .footer-wrap {
 width: 100%;
@@ -1074,11 +1059,7 @@ width: 100%;
   margin-bottom: 32px;
   align-items: center;
 }
-
-.product__imgbox {
-  width: 285px;
-}
-  
+ 
 .footer-wrap {
   width: 100%;
   }
